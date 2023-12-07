@@ -1,0 +1,31 @@
+body{
+    background: #302C42;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav .nav-item .nav-link{
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.nav .nav-item .nav-link:hover{
+    color: #A49BCF;
+}
+
+.btn{
+    border-radius: 40px;
+    padding: 0.6em 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#btn-1{
+    background: transparent;
+    border: 2px solid #FFF;
+}
+
+#btn-2{
+    background-image: linear-gradient(#8176AF, #C0B7E8);
+    border: none;
+    color: #302C42;
+}
