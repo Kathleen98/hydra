@@ -3,6 +3,16 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+i{
+    color: #C0B7E8;
+    font-size: 3.8rem;
+    padding-right: 0.3em;
+}
+
+header{
+    background: #302C42;
+}
+
 .nav .nav-item .nav-link{
     color: #FFF;
     text-transform: uppercase;
@@ -25,7 +35,56 @@ body{
 }
 
 #btn-2{
-    background-image: linear-gradient(#8176AF, #C0B7E8);
+    background-image: linear-gradient( to right ,#8176AF, #C0B7E8);
     border: none;
     color: #302C42;
+}
+
+
+.container-banner .text-gradient{
+    background-image: linear-gradient( to right,#8176AF, #C0B7E8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-banner h1{
+    font-size: 2.85rem;
+    font-weight: bold;
+    color: #FFF;
+    width: 35vw;
+}
+
+.container-banner p{
+    color: #FFF;
+    font-weight: lighter;
+    width: 30vw;
+}
+
+.container-banner .container-banner-img{
+    border-radius: 80px 80px 80px 250px;
+    box-shadow: 1px 2px 5px 20px #2A2639;
+
+}
+
+.container-list{
+    background-image: radial-gradient(#3A3456, #211E2E);
+    padding: 2em;
+    border-radius: 80px;
+}
+
+
+.container-list  h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.container-list p{
+    font-size: 0.8rem;
+}
+
+#container-list-border{
+    border-right: 1px solid #A49BCF;
+    border-left: 1px solid #A49BCF;
 }
