@@ -1,0 +1,22 @@
+.container-about{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6em;
+}
+
+.container-about p{
+    font-weight: lighter;
+    width: 48vw;
+}
+
+.content-about-banner img{
+    border-radius: 230px 90px 230px 90px;
+}
+
+.content-about-banner .text-about{
+    padding: 2em 5em;
+}
+
+.content-about-banner .text-about button{
+    width: 20vw;
+}
